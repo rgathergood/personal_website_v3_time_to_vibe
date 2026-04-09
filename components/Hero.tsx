@@ -12,7 +12,7 @@ export default function Hero() {
               <span className="gradient-text">& Builder</span>
             </h1>
             <p className="text-xl text-slate-300 mb-6 leading-relaxed">
-              Driving product strategy at Payscale. Passionate about solving meaningful customer problems, renewable energy, and creative expression through music.
+              Product Manager based in Scotland. Passionate about solving meaningful customer problems, renewable energy, fitness, and creative expression through music.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/projects" className="btn-primary text-center">
@@ -25,7 +25,7 @@ export default function Hero() {
             <div className="mt-12 pt-8 border-t border-slate-700">
               <p className="text-slate-400 mb-4 font-semibold">Featured Skills</p>
               <div className="flex flex-wrap gap-3">
-                {['Product Strategy', 'Data Analysis', 'User Research', 'Agile Leadership'].map((skill) => (
+                {['Product Strategy', 'Data Analysis', 'User Research', 'Software Delivery', 'Agile Leadership', 'AI'].map((skill) => (
                   <span key={skill} className="px-4 py-2 bg-slate-800 border border-orange-500/30 rounded-full text-sm text-slate-300">
                     {skill}
                   </span>
