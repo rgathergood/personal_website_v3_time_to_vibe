@@ -68,6 +68,16 @@ export default function Contact() {
                       LinkedIn
                     </a>
                   </div>
+                  <div className="space-y-3">
+                    <a 
+                      href="https://github.com/rgathergood" 
+                      className="block text-slate-300 hover:text-orange-400 transition"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Github
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

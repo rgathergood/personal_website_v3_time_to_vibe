@@ -7,15 +7,18 @@ import Footer from '@/components/Footer'
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' })
 
 export const metadata: Metadata = {
-  title: 'Rob Gathergood - Product Manager & Builder',
-  description: 'Product Manager at Payscale. Musician, renewable energy enthusiast, and builder.',
+  title: 'Rob Gathergood - Product Manager',
+  description: 'Product Manager open for work. Musician, renewable energy enthusiast, and builder.',
   openGraph: {
-    title: 'Rob Gathergood - PM | Musician | Builder',
-    description: 'Portfolio of Rob Gathergood, Product Manager at Payscale',
+    title: 'Rob Gathergood - Product Manager',
+    description: 'Portfolio of Rob Gathergood, Product Manager',
     url: 'https://robgathergood.com',
     siteName: 'Rob Gathergood',
     locale: 'en_GB',
     type: 'website',
+  },
+  icons: {
+    icon: '/favicon.ico',
   },
 }
 
